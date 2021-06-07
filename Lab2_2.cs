@@ -16,7 +16,7 @@ namespace lab2_1
                 }
                 else
                 {
-                    y = (Math.Pow(x, 1 / 4) * Math.Tan(x) + 13);
+                    y = Math.Sqrt(Math.Sqrt(Math.Sqrt(Math.Tan(x)+13)));
                     Console.WriteLine("|" + Math.Round(x, 2) + "\t\t" + Math.Round(y, 2));
 
                 }
